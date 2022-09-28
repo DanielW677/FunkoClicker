@@ -6,23 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script type="text/javascript" defer src="script.js"></script>
-    <title>Document</title>
+    <title>Funko Clicker</title>
 </head>
 <body>
     <header>
         <h1 class="Main-Game">Funko Clicker</h1>
     </header>
-    <div id="Upgrade">
-        <p class="upgradebox">New Funkos!</p>
-        <span class="upgradeitem" id="CommonFunko"><button class="upgradeButton"><p>Common Funko <p class="sidetabs">Cost: 10 funko's adds: 1/sec</p></p></button></span>
-        <span class="upgradeitem" id="GlitterFunko"><button class="upgradeButton"><p>Diamond Funko<p class="sidetabs">Cost: 50 funko's adds: 2/sec</p></p></button></span>
-        <span class="upgradeitem" id="BlacklightFunko"><button class="upgradeButton"><p>Blacklight Funko<p class="sidetabs">cost: 100 funko's adds: 5/sec</p></p></button></span>   
+    <div id="All-Content">
+        <div id="Upgrade">
+            <p class="upgradebox">New Funkos!</p>
+            <span class="upgradeitem" id="CommonFunko"><button class="upgradeButton"><p>Common Funko <p class="sidetabs">Cost: 10 funko's adds: 1/sec</p></p></button></span>
+            <span class="upgradeitem" id="GlitterFunko"><button class="upgradeButton"><p>Diamond Funko<p class="sidetabs">Cost: 50 funko's adds: 2/sec</p></p></button></span>
+            <span class="upgradeitem" id="BlacklightFunko"><button class="upgradeButton"><p>Blacklight Funko<p class="sidetabs">cost: 100 funko's adds: 5/sec</p></p></button></span>   
+        </div>
+        <container class="Funko">
+            <h2 class="collected-text">Funko Collected:<span id="FunkoCounter"> 0</span></h2>
+            <h5 class="collected-text">Funko/second:<span id="GeneratedFunko"> 0</span></h5>
+            <img class="ClickMe" src="funko.jpg">
+        </container>
     </div>
-    <container class="Funko">
-        <h2 class="collected-text">Funko Collected:<span id="FunkoCounter"> 0</span></h2>
-        <h5 class="collected-text">Funko/second:<span id="GeneratedFunko"> 0</span></h5>
-        <img class="ClickMe" src="funko.jpg">
-    </container>
     <footer>
         
     </footer>
