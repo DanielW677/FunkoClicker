@@ -1,0 +1,63 @@
+h2{
+    display: inline-flexbox;
+}
+
+body{
+    display: flexbox;
+}
+
+.Funko{
+    display: inline-block;
+    margin: auto;
+    padding: auto;
+}
+.ClickMe{
+    display: flexbox;
+    height: 30%;
+    width: 30%;
+    margin-left: 45%;
+    margin-right: 50%;
+}
+.Main-Game{
+    text-align: center;
+    border: 1px solid black;
+    margin-top: auto;
+    font-size: 60px;
+}
+
+#Upgrade{
+    display: flex;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 2% 10% 10% 10%;
+
+}
+.upgradebox{
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: underline;
+}
+
+.collected-text{
+    text-align: center;
+    margin-left: 80px
+}
+.upgradeitem{
+    flex-direction: column;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.upgradeButton{
+    padding-left: auto;
+    padding-right: auto;
+}
+.sidetabs{
+    font-size: xx-small;
+    text-align: right;
+}
+.upgradeitem p {
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
