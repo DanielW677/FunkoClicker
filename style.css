@@ -46,6 +46,8 @@ body{
 .upgradeitem{
     flex-direction: column;
     display: block;
+    padding-top: 25px;
+    max-width: fill;
 }
 .upgradeButton{
     padding-left: auto;
@@ -55,7 +57,9 @@ body{
     font-size: xx-small;
     text-align: right;
 }
-
+.upgradetext{
+    font-size: 30px;
+}
 .upgradeitem p {
     text-align: left;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
