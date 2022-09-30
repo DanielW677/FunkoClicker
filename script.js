@@ -13,6 +13,7 @@ const blackLightButton = document.getElementById('BlacklightFunko');
 const chaseButton = document.getElementById('ChaseFunko');
 const freddyButton = document.getElementById('freddyFunko');
 const startButton = document.getElementById('start-buttn')
+const restartButton = document.getElementById('restart-buttn')
 
 
 
@@ -84,6 +85,12 @@ function passiveGeneration(){
     setInterval(passiveFunkobb, 1000)
 }
 
+function restartGame(){
+    gameState.funko = 0;
+    gameState.funkoGeneration = 0;
+    funkoGeneratedDisplay.textContent = gameState.funkoGeneration;
+    funkoDisplay.textContent = gameState.funko;
+}
 
 
 commonButton.addEventListener('click', commonFunkoPurchase)
@@ -92,3 +99,4 @@ blackLightButton.addEventListener('click', blacklightFunkoPurchase)
 chaseButton.addEventListener('click',chaseFunkoPurchase)
 freddyButton.addEventListener('click', freddyFunkoPurchase)
 startButton.addEventListener('click', passiveGeneration)
+restartButton.addEventListener('click', restartGame)

@@ -69,3 +69,6 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.newbutton{
+    margin-top: 5px;
+}
