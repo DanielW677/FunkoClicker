@@ -12,7 +12,7 @@ body{
     padding: auto;
     justify-content: space-between;
 }
-.ClickMe{
+#ClickMe{
     display: flexbox;
     height: 30%;
     width: 30%;
